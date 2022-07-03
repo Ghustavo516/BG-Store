@@ -2,7 +2,7 @@
 
 <div>
   Esse projeto desenvolvido por <b>Gustavo Rodrigues e Beatriz Farah Marques</b> com o objetivo de comprovar o aprendizado da disciplina de Programação de Sistemas Embarcados II. A ideia do nosso projeto foi desevolver uma loja de produtos tendo algumas principais categorias acessadas pela nav-bar para facilidade do usuario, sendo: Pagína Inicial, Eletrônicos, Moda e Ofertas.<br>
-  A pagina tem a capacidade de fazer o cadastro e login de usuarios e verificar se todos os campos foram preenchidos durante o cadastro, alem de fazer uma simulação do valor total da compra e a quantidade de items no carrinho usando JavaScript.
+  A pagina tem a capacidade de fazer o cadastro e login de usuarios e verificar se todos os campos foram preenchidos durante o cadastro, alem de fazer uma simulação do valor total da compra e a quantidade de items no carrinho usando JavaScript.Quando o usuario passa o ponteiro do mouse em cima de alguns produtos na pagina de oferta e exibido uma breve descrição sobre ele.
 </div>
 
 ## Pagína Inicial
