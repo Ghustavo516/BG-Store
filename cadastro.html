@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap" rel="stylesheet">    
+        <title>Cadastro</title>
+    </head>
+     
+    <body id="tela-1">
+        <div class="nav-container">
+            <h1 class="logo-bg">BG Store</h1>
+            <input id="bar-search" type="text" placeholder="Buscar Produtos">
+            <a href="login.html"><img  id="icon-login" src="Images/user.png" alt="login"></a>
+            <img id="icon-bag" src="Images/bag.png" alt="sacola">
+        </div>
+    
+        <div id="menu">
+            <ul id="menu-section">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="eletronics.html">Eletrônicos</a></li>
+                <li><a href="moda.html">Moda</a></li>
+                <li><a href="page_3.html">Ofertas</a></li>
+            </ul>
+        </div>
+        <div class="formularios">
+            <h1 id="h1-form-cadastro">Cadastro</h1><br>
+            <form>
+                <span></span>
+                <h1 id="sex-text">Sexo:</h1>
+                <span id="sexo">Masculino<input type="radio" name="Sexo" value="M" required>
+                    Feminino<input type="radio" name="Sexo" value="F"></span>
+                <h1 id="name-text">Nome completo:</h1>
+                <input type="text" name="Nome" id="input-name" required>
+                <h1 id="text-state">Estado:</h1>
+                <select name="Estado" id="input-state">
+                    <option value="SP">SP</option>
+                    <option value="MG">MG</option>
+                    <option value="RS">RS</option>
+                    <option value="RJ">RJ</option>
+                </select><br>
+                <h1 id="cpf-text" required>CPF:</h1>
+                <input type="number" name="CPF" id="input-cpf" required>
+                <h1 id="email-text" required>E-mail</h1>
+                <input type="text" name="Login" id="input-email" required>
+                <h1 id="text-senha" required>Senha</h1>
+                <input type="password" name="Senha" id="senha-input" required>
+                <input type="submit" value="Cadastrar" id="button-submit">
+                <h1 id="text-lg">Já possui cadastro? <a href="login.html" style="font-weight: bold; text-decoration: none; color: darkcyan;">Faça o Login</a></h1>
+        </form>
+        </div>
+        <footer style="position: relative; bottom: 60px;"><h1 id="creators">© Copyright: Beatriz Farah Marques e Gustavo Rodrigues</h1></footer>
+    </body>
+</html>

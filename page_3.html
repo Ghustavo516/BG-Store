@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="site.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap" rel="stylesheet">
+    
+    <!--Tootips bibliotecas-->
+    <link rel="stylesheet" type="text/css" href="https://rawgit.com/iamceege/tooltipster/4.2.5/dist/css/tooltipster.bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="https://rawgit.com/louisameline/tooltipster-follower/0.1.5/dist/css/tooltipster-follower.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/iamceege/tooltipster/4.2.5/dist/js/tooltipster.bundle.min.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/louisameline/tooltipster-follower/0.1.5/dist/js/tooltipster-follower.min.js"></script>
+
+    <title>Notebook ASUS ROG Strix G15</title>
+
+    <script>
+    $(function (){
+        $(".imagemProduct").tooltipster({
+            content: $('.conteudo-customizado'),
+            theme: 'tooltipster-meu-tema',
+            Default: ['bottom'],
+        });
+    })
+
+    $(function (){
+        $(".imagemProduct2").tooltipster({
+            content: $('.conteudo-customizado2'),
+            theme: 'tooltipster-meu-tema',
+            Default: ['bottom'],
+        });
+    })
+
+    $(function (){
+        $(".imagemProduct3").tooltipster({
+            content: $('.conteudo-customizado3'),
+            theme: 'tooltipster-meu-tema',
+            Default: ['bottom'],
+        });
+    })
+    </script>
+</head>
+<body id="page3" onmousemove="ofertaLimitada()" onload="OcultarPagamento()">
+    <div class="nav-container">
+        <h1 class="logo-bg">BG Store</h1>
+        <input id="bar-search" type="text" placeholder="Buscar Produtos">
+        <a href="login.html"><img  id="icon-login" src="Images/user.png" alt="login"></a>
+        <img id="icon-bag" src="Images/bag.png" alt="sacola">
+    </div>
+
+    <div id="menu">
+        <ul id="menu-section">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="eletronics.html">Eletrônicos</a></li>
+            <li><a href="moda.html">Moda</a></li>
+            <li><a href="page_3.html">Ofertas</a></li>
+        </ul>
+    </div>
+
+    <div id="oferta">
+        <img src="Images/promotion.png" id="icon-oferta">
+        <h1 id="time-limited">00:00:00</h1>
+        <h1 id="enjoy">Aproveite!</h1>
+        <h1 id="date">Ofertas ilimitadas</h1>
+        <h1 id="limited">Jundiai, 02 de julho de 2022</h1>
+        
+    </div>
+    <div class="aprentation-product-background"><img src="Images/2028.jpg" alt=""></div>
+    
+    <div class="apresentation-product-container">
+        <div class="product"><img src="Images/product-test2.png" alt=""></div>
+        <ul class="other-images-product">
+            <li><img src="Images/view-1.webp" alt=""></li>
+            <li><img src="Images/view-2.webp" alt=""></li>
+            <li><img src="Images/view-3.webp" alt=""></li>
+            <li><img src="Images/view-4.webp" alt=""></li>
+            <li><img src="Images/view-5.webp" alt=""></li>
+            
+        </ul>
+
+        <div class="product-specification">
+            <h1 id="name-product">Notebook ASUS ROG Strix G15 (2020) - teclado RGB</h1>
+
+            <ul class="rating-stars">
+                <li><img src="Images/star.png" alt="avaliação"></li>
+                <li><img src="Images/star.png" alt="avaliação"></li>
+                <li><img src="Images/star.png" alt="avaliação"></li>
+                <li><img src="Images/star.png" alt="avaliação"></li>
+                <li><img src="Images/star.png" alt="avaliação"></li> 
+            </ul>
+            <h1 id="price-product">R$9.999,99</h1>
+
+            <h1 id="rating-number">(20.500)</h1>
+
+            <button id="buy-button" onclick="ValorCompra(9999.99)">Comprar</button>
+            <div id="payment-method">
+                <ul id="metodos">
+                    <h1 id="formas">Formas de Pagamentos:</h1>
+                    <h1 id="valor-compra">Valor:R$99999,99</h1>
+                    <h1 id="quant">Quant:0</h1>
+                    <li id="metodos-pagamento"><input type="radio" name="Sexo" value="M" required><h1>PIX</h1></li>
+                    <li id="metodos-pagamento"><input type="radio" name="Sexo" value="M" required><h1>Boleto Bancário</h1></li>
+                    <li id="metodos-pagamento"><input type="radio" name="Sexo" value="M" required><h1>Cartão de Crédito</h1></li>
+                    <button id="compra">Confirma Compra</button>
+                </ul>
+            </div>
+            <p id="technical">Marca Asus |Tipo Notebook Gamer |Tamanho da tela15.6 |Tipo de tela IPS |Resolução de Tela Full HD 1920x1080p |Memória RAM 8 GB DDR4 |Frequência 3200 Mhz |Placa de video NVIDIA GeForce GTX 1650Ti 4GB |Processador Intel Core i7 |Disco rígido512 GB - SSD |CorElectro Punk</p> 
+        </div>     
+    </div>
+    <br>
+    <div class="apresentation-product-container">
+        <h1 id="product-information">Informações do produto</h1>
+        <hr>
+        <h1 id="description"> • O ROG Strix G15 incorpora um design simplificado, oferecendo uma experiência central formidável para jogos pesados e multitarefa no Windows 10 Home. Apresentando até a mais recente CPU Intel® Core™ i7 de 10ª geração e uma GPU GeForce RTX™ 2060, ela oferece alta potência de FPS que aproveita ao máximo uma tela de 240Hz/3ms. As inovações de resfriamento inteligente como metal líquido elevam o desempenho a outro nível. A conectividade Wi-Fi 6 ultrarrápida e até 2 SSDs em execução no RAID 0 (opcional) aceleram o trabalho e a diversão. O espaço para um terceiro SSD significa que você pode atualizar seu armazenamento para levar sua coleção completa de jogos aonde quer que vá.</h1>
+        <h1 id="description"> • Inspirado por nossa colaboração com o BMW Designworks Group, o ROG Strix G combina suavemente o estilo prático com o resfriamento de ponta que você pode ver.. A cor Original Black envolve o Strix G em preto furtivo, dando-lhe uma personalidade profissional que combina facilmente em qualquer ambiente.</h1>
+        <h1 id="description"> • Jogue na velocidade dos e-sports profissionais com uma tela para jogos ultrarrápida de 240Hz/3ms. A incrível taxa de atualização rápida de 240 Hz permite uma verdadeira experiência de alto FPS que faz o fluxo rápido da jogabilidade parecer impecavelmente suave. O tempo de resposta de 3ms grey-to-grey minimiza o desfoque de movimento, oferecendo visuais mais nítidos e precisos para alvos em movimento rápido. Obtenha uma vantagem em combate, onde a resposta rápida e o reconhecimento do ambiente são cruciais para a vitória.</h1>
+        <h1 id="description"> • Trabalhe e divirta-se com velocidade em uma máquina poderosa equipada para proporcionar experiências emocionantes. A GPU GeForce RTX™ 2060 possibilita os jogos em ritmo acelerado, oferecendo uma vantagem competitiva no campo de batalha. Uma poderosa CPU Intel® Core™ de 10ª geração, combinada com até 16 GB de RAM DDR4-3200, executa todas as tarefas. Com o armazenamento SSD NVMe M.2 , os seus aplicativos são carregados em alta velocidade. Ainda há espaço para até três SSDs, o que facilita a adição de muitos gigabytes ao seu armazenamento total para transportar uma enorme coleção de mídia a qualquer lugar.</h1>
+    </div>
+    <br>
+    <div class="similar-devices-container-page3"><!--div - (divisão) dos aparelhos semelhantes-->
+        <h1 id="similar-device-name-page3">Produtos Similares</h1><!--Titulo aparelhos semelhantes-->
+        <ul class="similar-device-page3">
+            <li>
+                <img src="Images/product-2.png" onclick="ValorCompra(7399.99)" class="imagemProduct"  title="Minha imagem">
+                <h1 class="name-other-device">ROG Rapture GT-AXE11000</h1>
+                <h1 class="price-other-device">R$ 7.399,99</h1>
+
+                <div style="display:none">
+                    <div class="conteudo-customizado"><h1 class="textDescription">Gt-AXE11000 Tri-band WiFi 6E (802.11ax) roteador de jogos, nova banda de 6GHz, porta WAN/LAN 2,5G, compatível com PS5, agregação WAN, VPN Fusion, Aceleração de Jogos de Nível Triplo, segurança de rede livre e suporte a AiMesh</h1></div>
+                </div>
+            </li>
+            <li>
+                <img src="Images/product-3.png" onclick="ValorCompra(9087,64)" class="imagemProduct2" title="Minha imagem">
+                <h1 class="name-other-device">ROG Maximus XIII Extreme Glacial</h1>
+                <h1 class="price-other-device">R$ 9.087,64</h1>
+
+                <div style="display:none">
+                    <div class="conteudo-customizado2"><h1 class="textDescription">Placa-mãe Intel Z590 EATX com 18+2 estágios de potência, bloco de água EK de cobertura completa integrado, cinco slots M.2, conector USB 3.2 Gen 2x2, conector usb 3.2 Gen 2, duplo Thunderbolt™ 4, Marvell AQtion 10 Gb Ethernet, Intel 2,5 Gb Ethernet, PCIe 4.0, WiFi 6E a bordo (802.11ax) e iluminação AuraGB RGB</h1></div>
+                </div>
+            </li>
+            <li>
+                <img src="Images/product-4.png" onclick="ValorCompra(12499.99)" class="imagemProduct3" title="Minha imagem">
+                <h1 class="name-other-device">ASUS ROG Zephyrus Duo 15</h1>
+                <h1 class="price-other-device">R$ 12.499,99</h1>
+
+                <div style="display:none">
+                    <div class="conteudo-customizado3"><h1 class="textDescription">Intel® Core ™ i7 de 10ª geração e placa de vídeo NVIDIA® GeForce® RTX 2080 SUPER™, tela com taxa de 300Hz/3ms, bateria de 90Wh de alta capacidade. uma segunda tela ROG ScreenPad Plus integrada, 16GB de RAM DDR4-3200 e 512GB de armazenamento SSD</h1></div>
+                </div>
+            </li>
+    </div>
+    <footer><h1 id="creators">© Copyright: Beatriz Farah Marques e Gustavo Rodrigues</h1></footer>
+
+    <br>
+
+    
+</body>
+</html>
